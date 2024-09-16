@@ -679,7 +679,7 @@
   });
 
   document.addEventListener('DOMContentLoaded', function () {
-    const apiUrl = 'http://localhost:8000/yeshara/properties/'; // API URL
+    const apiUrl = 'https://testmanagement.pythonanywhere.com/yeshara/properties/'; // API URL
     const propertiesContainer = document.getElementById('properties-container');
     const filterButtons = document.querySelectorAll('.all-properties li button');
 
