@@ -713,9 +713,7 @@
                         <div class="swiper-slide">
                             <div class="overflow-hidden rounded-md drop-shadow-[0px_0px_5px_rgba(0,0,0,0.1)] bg-[#FFFDFC] text-center transition-all duration-300 hover:-translate-y-[10px]">
                                 <div class="relative">
-                                    <a href="properties-details.html?id=${property.id}" class="block">
                                         <img src="${property.image}" class="w-full h-full" loading="lazy" width="370" height="266" alt="${property.title}">
-                                    </a>
                                     <div class="flex flex-wrap flex-col absolute top-5 right-5">
                                         <button class="flex flex-wrap items-center bg-[rgb(11,44,61,0.8)] p-[5px] rounded-[2px] text-white mb-[5px] text-xs">
                                             <img class="mr-1" src="assets/images/icon/camera.png" loading="lazy" width="13" height="10" alt="camera icon">${property.photoCount || 0}
@@ -728,12 +726,10 @@
                                 </div>
                                 <div class="py-[20px] px-[20px] text-left">
                                     <h3>
-                                        <a href="properties-details.html?id=${property.id}" class="font-lora leading-tight text-[22px] xl:text-[26px] text-primary hover:text-secondary transition-all font-medium">
                                             ${property.title}
-                                        </a>
                                     </h3>
                                     <h4>
-                                        <a href="properties-details.html?id=${property.id}" class="font-light text-[14px] leading-[1.75] underline">${property.address}</a>
+                                        <a href="" class="font-light text-[14px] leading-[1.75] underline">${property.address}</a>
                                     </h4>
                                     <p class="font-light text-[14px] mt-2">${property.description}</p>
                                     <span class="font-light text-sm">Added: ${property.added_date}</span>
